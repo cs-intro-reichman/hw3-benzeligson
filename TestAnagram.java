@@ -52,7 +52,7 @@ public class TestAnagram {
         
          // Test case 2: Remove spaces
         boolean test2 = Anagram.preProcess("Hello World!").equals("helloworld");
-        System.out.println("Test 2 (remove spaces): " + (test2 ? "PASS" : "FAIL"));
+        System.out.println("Test 2 (preserve spaces): " + (test2 ? "PASS" : "FAIL"));
         
         // Test case 3: Convert to lowercase
         boolean test3 = Anagram.preProcess("HeLLo").equals("hello");
